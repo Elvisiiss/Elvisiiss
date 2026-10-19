@@ -105,11 +105,16 @@
 
 <div align="center">
 
-<a href="mailto:3115089759@qq.com"><img src="https://img.shields.io/badge/Email-3115089759%40qq.com-7F5AF0?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-<a href="https://space.bilibili.com/103149744"><img src="https://img.shields.io/badge/Bilibili-00A1D6?style=for-the-badge&logo=bilibili&logoColor=white" alt="Bilibili" /></a>
+<a href="mailto:3115089759@qq.com"><img src="https://img.shields.io/badge/Email-3115089759%40qq.com-7F5AF0?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://space.bilibili.com/103149744"><img src="https://img.shields.io/badge/Bilibili-%E7%A9%BA%E9%97%B4-00A1D6?style=flat-square&logo=bilibili&logoColor=white" alt="Bilibili" /></a>
+<a href="https://github.com/Elvisiiss"><img src="https://img.shields.io/badge/GitHub-Elvisiiss-1B1F2E?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
 
 <br /><br />
 
 <sub>「 希望是指南针，信仰是扬起的船帆。」</sub>
+
+<br />
+
+<sub>如果哪个仓库对你有用，欢迎点个 ⭐</sub>
 
 </div>
