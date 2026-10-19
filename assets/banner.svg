@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 420" width="1600" height="420" role="img" aria-label="L_dream - Backend Engineer">
+  <title>L_dream · Backend Engineer</title>
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A0E1A"/>
+      <stop offset="0.45" stop-color="#150F33"/>
+      <stop offset="1" stop-color="#06191E"/>
+    </linearGradient>
+    <radialGradient id="purpleGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#7F5AF0" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#7F5AF0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="tealGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#2CB67D" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#2CB67D" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accentLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7F5AF0"/>
+      <stop offset="1" stop-color="#2CB67D"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.6" fill="#ffffff" fill-opacity="0.06"/>
+    </pattern>
+    <filter id="blurGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="70"/>
+    </filter>
+    <filter id="textShadow" x="-20%" y="-30%" width="140%" height="180%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#05070F" flood-opacity="0.55"/>
+    </filter>
+    <style>
+      @keyframes drift1 {0%,100%{transform:translate(0,0)}50%{transform:translate(46px,26px)}}
+      @keyframes drift2 {0%,100%{transform:translate(0,0)}50%{transform:translate(-52px,-30px)}}
+      @keyframes shine {0%,100%{opacity:.55}50%{opacity:.95}}
+      .d1{animation:drift1 16s ease-in-out infinite}
+      .d2{animation:drift2 19s ease-in-out infinite}
+      .sh{animation:shine 6s ease-in-out infinite}
+    </style>
+  </defs>
+
+  <rect width="1600" height="420" fill="url(#bgGrad)"/>
+  <rect width="1600" height="420" fill="url(#grid)"/>
+
+  <g filter="url(#blurGlow)">
+    <circle class="d1" cx="250" cy="70" r="240" fill="url(#purpleGlow)"/>
+    <circle class="d2" cx="1370" cy="360" r="270" fill="url(#tealGlow)"/>
+  </g>
+
+  <rect x="0" y="0" width="1600" height="1" fill="#ffffff" fill-opacity="0.07"/>
+  <rect x="0" y="419" width="1600" height="1" fill="#ffffff" fill-opacity="0.05"/>
+
+  <g text-anchor="middle" font-family="'Segoe UI','Inter','Noto Sans SC','PingFang SC','Microsoft YaHei',-apple-system,'Helvetica Neue',Arial,sans-serif">
+    <text x="800" y="198" font-size="96" font-weight="800" letter-spacing="2" fill="#FFFFFF" filter="url(#textShadow)">L_dream</text>
+    <rect class="sh" x="720" y="230" width="160" height="3" rx="1.5" fill="url(#accentLine)"/>
+    <text x="800" y="288" font-size="32" font-weight="500" letter-spacing="1" fill="#AEB8D0">李翔 · Backend Engineer</text>
+    <text x="800" y="336" font-size="15" font-weight="600" letter-spacing="6" fill="#7C87A3" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Courier New',monospace">HIGH CONCURRENCY · DISTRIBUTED · LLM AGENT</text>
+    <text x="800" y="384" font-size="16" letter-spacing="1" fill="#5C6684">希望是指南针，信仰是扬起的船帆。</text>
+  </g>
+</svg>
