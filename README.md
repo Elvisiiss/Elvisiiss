@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="L_dream · Backend Engineer" width="100%" />
+<img src="assets/banner.svg?v=2" alt="L_dream · Backend Engineer" width="100%" />
 
 <br />
 
@@ -12,7 +12,7 @@
 
 </div>
 
-<img src="assets/divider.svg" width="100%" />
+<img src="assets/divider.svg?v=2" width="100%" />
 
 ## 🧭 关于我
 
@@ -23,7 +23,7 @@
 - 📈 喜欢把性能做成数字：连接数 **2w → 5w**、死锁率 **43% → 0%**、内存 **-90%**
 - ✨ 信条：**希望是指南针，信仰是扬起的船帆。**
 
-<img src="assets/divider.svg" width="100%" />
+<img src="assets/divider.svg?v=2" width="100%" />
 
 ## 🛠 技术栈
 
@@ -44,7 +44,7 @@
 
 </div>
 
-<img src="assets/divider.svg" width="100%" />
+<img src="assets/divider.svg?v=2" width="100%" />
 
 ## 💼 实习经历
 
@@ -72,7 +72,7 @@
 - **MCP 双端实现**：Server / Client 双侧打通第三方工具生态
 - **ES 调优**：fd / swap / search_after / reindex / refresh / ILM / JVM，查询效率 ↑ **25%**
 
-<img src="assets/divider.svg" width="100%" />
+<img src="assets/divider.svg?v=2" width="100%" />
 
 ## 🚀 精选项目
 
@@ -85,7 +85,7 @@
 
 <sub>还有一些没上架的东西放在私有仓库里：在线测评题解、定时巡视脚本、日记本 ……</sub>
 
-<img src="assets/divider.svg" width="100%" />
+<img src="assets/divider.svg?v=2" width="100%" />
 
 ## 🏆 竞赛荣誉
 
@@ -99,7 +99,7 @@
 
 </div>
 
-<img src="assets/divider.svg" width="100%" />
+<img src="assets/divider.svg?v=2" width="100%" />
 
 ## 📬 找到我
 
