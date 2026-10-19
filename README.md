@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="L_dream · Backend Engineer" width="100%" />
+<img src="assets/hero.svg" alt="L_dream — Backend Engineer" width="100%" />
 
 <br />
 
@@ -14,18 +14,20 @@
 
 <img src="assets/section-rule.svg" width="100%" />
 
-## 🧭 关于我
+## 01 · 关于我
 
 - 🎓 **2026 届** ｜ 赣南科技学院 · 数据科学与大数据技术 ｜ `2022.09 – 2026.06`
 - 💻 **Go / Java 后端开发**：高并发服务、网络 I/O、分布式与存储检索
 - 🤖 **LLM 应用工程**：Agent 编排、Context / Memory 工程、RAG 检索链路
 - 🏢 三段实习：**网易 CC 直播**（Go）· **点点互动**（后台）· **晓多科技**（Agent）
-- 📈 喜欢把性能做成数字：连接数 **2w → 5w**、死锁率 **43% → 0%**、内存 **-90%**
-- ✨ 信条：**希望是指南针，信仰是扬起的船帆。**
+
+> ✨ **信条**：希望是指南针，信仰是扬起的船帆。
+
+<img src="assets/metrics.svg" width="100%" />
 
 <img src="assets/section-rule.svg" width="100%" />
 
-## 🛠 技术栈
+## 02 · 技术栈
 
 <div align="center">
 
@@ -46,16 +48,16 @@
 
 <img src="assets/section-rule.svg" width="100%" />
 
-## 💼 实习经历
+## 03 · 实习经历
 
-**🎮 广州网易互动娱乐 · CC 直播事业部** ｜ `Golang 开发实习生` ｜ `2026.03 – 2026.05`
+> **🎮 广州网易互动娱乐 · CC 直播事业部** ｜ `Golang 开发实习生` ｜ `2026.03 – 2026.05`
 
 - **WS 网关重构**：重排 goroutine 模型、以 `gnet` 替换网络 I/O 层，单机连接数 **2w → 5w**，吞吐 **10MB/s → 100MB/s**
 - **榜单模块**：数据截断 + 缓存策略设计，手写 Ringbuffer 限流，支撑 Top100 与「未上榜」状态查询
 - **七日签到**：独立落地，用 DB 幂等表固定 Rows + 流水表控成本，活动期零故障
 - **Agent 平台**：旧 workflow 编排改造，参与 TAO / Replan 自主规划优化与知识库建模重构
 
-**🎲 点点互动科技** ｜ `后台开发实习生` ｜ `2025.05 – 2025.10`
+> **🎲 点点互动科技** ｜ `后台开发实习生` ｜ `2025.05 – 2025.10`
 
 - **海外活动研发**：抽奖、任务、签到、榜单、碎片兑换等高频上新活动的设计与实现，与前端、测试共创活动营收
 - **组件模板抽象**：同类玩法复用，让新活动低成本快速上线
@@ -63,7 +65,7 @@
 - **存储瘦身**：bitmap 分片替代 hash 存储礼包状态，50w 用户 **24MB → 0.5MB**（内存 ↓90%+）
 - **消息积压**：参与 Kafka 通用消费积压方案的落地
 
-**🤖 晓多科技** ｜ `Agent 开发实习生` ｜ `2024.10 – 2025.01`
+> **🤖 晓多科技** ｜ `Agent 开发实习生` ｜ `2024.10 – 2025.01`
 
 - **Context 工程**：关键事实 / 用户画像 / 历史会话 / RAG 分类存储，优化上下文提升回答准确率
 - **意图识别**：`keyword / rule / mini / weight` 多层置信度决策，兼顾安全性与准确率
@@ -74,20 +76,22 @@
 
 <img src="assets/section-rule.svg" width="100%" />
 
-## 🚀 精选项目
+## 04 · 精选项目
 
-- 🎓 **[EduSphere](https://github.com/Elvisiiss/EduSphere_server)** · `Java` `Vue` — 教育平台，后端服务 + Web 前端双仓库
-- 🏭 **[金属微丝产线管理平台](https://github.com/Elvisiiss/metal_micro_wire_backend)** · `Java` `Vue` — 产线数据管理与前端看板
-- ⚙️ **[设备管理系统](https://github.com/Elvisiiss/Equipment_Management_System_Web)** · `Vue` — 设备台账与运维管理 Web 端
-- 🏗️ **[IntelliMES](https://github.com/Elvisiiss/IntelliMES)** · `JavaScript` — 智能制造执行系统
-- 📖 **[Elvel](https://github.com/Elvisiiss/Elvel)** · `Java` — 小说阅读应用
-- 🎮 **[Twilight-Of-The-Gods](https://github.com/Elvisiiss/Twilight-Of-The-Gods)** · `GDScript` — Godot 引擎小游戏「诸神黄昏」
+| 仓库 | 一句话 | 主要技术 |
+| :-- | :-- | :-- |
+| **[EduSphere](https://github.com/Elvisiiss/EduSphere_server)** · [web](https://github.com/Elvisiiss/EduSphere_web) | 教育平台，后端服务 + 前端双仓库 | `Java` `Vue` |
+| **[金属微丝产线管理平台](https://github.com/Elvisiiss/metal_micro_wire_backend)** · [web](https://github.com/Elvisiiss/metal_micro_wire_web) | 产线数据管理与前端看板 | `Java` `Vue` |
+| **[设备管理系统](https://github.com/Elvisiiss/Equipment_Management_System_Web)** | 设备台账与运维管理 Web 端 | `Vue` |
+| **[IntelliMES](https://github.com/Elvisiiss/IntelliMES)** | 智能制造执行系统 | `JavaScript` |
+| **[Elvel](https://github.com/Elvisiiss/Elvel)** | 小说阅读应用 | `Java` |
+| **[Twilight-Of-The-Gods](https://github.com/Elvisiiss/Twilight-Of-The-Gods)** | Godot 引擎小游戏「诸神黄昏」 | `GDScript` |
 
 <sub>还有一些没上架的东西放在私有仓库里：在线测评题解、定时巡视脚本、日记本 ……</sub>
 
 <img src="assets/section-rule.svg" width="100%" />
 
-## 🏆 竞赛荣誉
+## 05 · 竞赛荣誉
 
 <div align="center">
 
@@ -101,7 +105,7 @@
 
 <img src="assets/section-rule.svg" width="100%" />
 
-## 📬 找到我
+## 06 · 找到我
 
 <div align="center">
 
