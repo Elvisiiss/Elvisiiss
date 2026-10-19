@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 320" width="1600" height="320" role="img" aria-label="engineering highlights">
+  <title>Engineering highlights</title>
+  <defs>
+    <linearGradient id="mbg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#080B14"/>
+      <stop offset="0.5" stop-color="#0C1024"/>
+      <stop offset="1" stop-color="#06141A"/>
+    </linearGradient>
+    <linearGradient id="maccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9B7BFF"/>
+      <stop offset="0.55" stop-color="#6C7BF0"/>
+      <stop offset="1" stop-color="#2CB67D"/>
+    </linearGradient>
+    <radialGradient id="mglow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#7F5AF0" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#7F5AF0" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="msoft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="60"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="320" fill="url(#mbg)"/>
+  <circle cx="800" cy="10" r="330" fill="url(#mglow)" filter="url(#msoft)"/>
+
+  <g font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Courier New',monospace">
+    <text x="140" y="34" font-size="12" letter-spacing="4" fill="#5D6883">ENGINEERING HIGHLIGHTS</text>
+    <text x="1460" y="34" text-anchor="end" font-size="12" letter-spacing="2" fill="#3F4A63">2024 — 2026</text>
+  </g>
+
+  <g>
+    <rect x="140" y="52" width="312" height="218" rx="16" fill="#0E1420" fill-opacity="0.92" stroke="#ffffff" stroke-opacity="0.07"/>
+    <rect x="140" y="52" width="312" height="3" rx="1.5" fill="url(#maccent)"/>
+    <text x="168" y="98" font-family="'Segoe UI','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-size="14" fill="#7C86A0">WS 网关 · 单机连接数</text>
+    <text x="168" y="148" font-family="'JetBrains Mono','SFMono-Regular',Consolas,monospace" font-size="34" font-weight="700" fill="#FFFFFF">2w → 5w</text>
+    <rect x="168" y="164" width="68" height="24" rx="12" fill="#2CB67D" fill-opacity="0.14"/>
+    <text x="181" y="181" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#49D69B">x2.5</text>
+    <rect x="168" y="200" width="72" height="12" rx="6" fill="#ffffff" fill-opacity="0.16"/>
+    <rect x="168" y="222" width="180" height="12" rx="6" fill="url(#maccent)"/>
+  </g>
+
+  <g>
+    <rect x="476" y="52" width="312" height="218" rx="16" fill="#0E1420" fill-opacity="0.92" stroke="#ffffff" stroke-opacity="0.07"/>
+    <rect x="476" y="52" width="312" height="3" rx="1.5" fill="url(#maccent)"/>
+    <text x="504" y="98" font-family="'Segoe UI','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-size="14" fill="#7C86A0">发奖接口 · 数据库死锁率</text>
+    <text x="504" y="148" font-family="'JetBrains Mono','SFMono-Regular',Consolas,monospace" font-size="34" font-weight="700" fill="#FFFFFF">43% → 0%</text>
+    <rect x="504" y="164" width="82" height="24" rx="12" fill="#2CB67D" fill-opacity="0.14"/>
+    <text x="517" y="181" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#49D69B">SQL 重构</text>
+    <rect x="504" y="200" width="164" height="12" rx="6" fill="#ffffff" fill-opacity="0.16"/>
+    <rect x="504" y="222" width="10" height="12" rx="6" fill="url(#maccent)"/>
+  </g>
+
+  <g>
+    <rect x="812" y="52" width="312" height="218" rx="16" fill="#0E1420" fill-opacity="0.92" stroke="#ffffff" stroke-opacity="0.07"/>
+    <rect x="812" y="52" width="312" height="3" rx="1.5" fill="url(#maccent)"/>
+    <text x="840" y="98" font-family="'Segoe UI','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-size="14" fill="#7C86A0">礼包状态存储 · 50w 用户</text>
+    <text x="840" y="148" font-family="'JetBrains Mono','SFMono-Regular',Consolas,monospace" font-size="34" font-weight="700" fill="#FFFFFF">24MB → 0.5MB</text>
+    <rect x="840" y="164" width="92" height="24" rx="12" fill="#7F5AF0" fill-opacity="0.18"/>
+    <text x="853" y="181" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#A98BFF">bitmap</text>
+    <rect x="840" y="200" width="150" height="12" rx="6" fill="#ffffff" fill-opacity="0.16"/>
+    <rect x="840" y="222" width="12" height="12" rx="6" fill="url(#maccent)"/>
+  </g>
+
+  <g>
+    <rect x="1148" y="52" width="312" height="218" rx="16" fill="#0E1420" fill-opacity="0.92" stroke="#ffffff" stroke-opacity="0.07"/>
+    <rect x="1148" y="52" width="312" height="3" rx="1.5" fill="url(#maccent)"/>
+    <text x="1176" y="98" font-family="'Segoe UI','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-size="14" fill="#7C86A0">ES 集群 · 查询耗时</text>
+    <text x="1176" y="148" font-family="'JetBrains Mono','SFMono-Regular',Consolas,monospace" font-size="34" font-weight="700" fill="#FFFFFF">-25%</text>
+    <rect x="1176" y="164" width="80" height="24" rx="12" fill="#2CB67D" fill-opacity="0.14"/>
+    <text x="1189" y="181" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#49D69B">ILM 调优</text>
+    <rect x="1176" y="200" width="164" height="12" rx="6" fill="#ffffff" fill-opacity="0.16"/>
+    <rect x="1176" y="222" width="123" height="12" rx="6" fill="url(#maccent)"/>
+  </g>
+
+  <g font-family="'Segoe UI','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-size="12" fill="#4B5470">
+    <rect x="140" y="292" width="14" height="8" rx="4" fill="#ffffff" fill-opacity="0.16"/>
+    <text x="162" y="301">优化前</text>
+    <rect x="216" y="292" width="14" height="8" rx="4" fill="url(#maccent)"/>
+    <text x="238" y="301">优化后</text>
+    <text x="1460" y="301" text-anchor="end" fill="#3F4A63">数据来自实习期间的真实压测与线上观测</text>
+  </g>
+</svg>
