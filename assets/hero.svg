@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 470" width="1600" height="470" role="img" aria-label="L_dream — Backend Engineer">
+  <title>L_dream — Backend Engineer</title>
+  <defs>
+    <linearGradient id="hbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070A12"/>
+      <stop offset="0.5" stop-color="#100E28"/>
+      <stop offset="1" stop-color="#05141A"/>
+    </linearGradient>
+    <radialGradient id="hglowP" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#7F5AF0" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#7F5AF0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="hglowT" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#2CB67D" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#2CB67D" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="haccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9B7BFF"/>
+      <stop offset="0.55" stop-color="#6C7BF0"/>
+      <stop offset="1" stop-color="#2CB67D"/>
+    </linearGradient>
+    <linearGradient id="hcard" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#131A26" stop-opacity="0.94"/>
+      <stop offset="1" stop-color="#0A0F1A" stop-opacity="0.96"/>
+    </linearGradient>
+    <pattern id="hdots" width="36" height="36" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.5" fill="#ffffff" fill-opacity="0.055"/>
+    </pattern>
+    <filter id="hsoft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="62"/>
+    </filter>
+    <style>
+      @keyframes driftA {0%,100%{transform:translate(0,0)}50%{transform:translate(42px,26px)}}
+      @keyframes driftB {0%,100%{transform:translate(0,0)}50%{transform:translate(-48px,-26px)}}
+      @keyframes blink {0%,45%{opacity:1}55%,95%{opacity:0}100%{opacity:1}}
+      .a{animation:driftA 15s ease-in-out infinite}
+      .b{animation:driftB 18s ease-in-out infinite}
+      .cur{animation:blink 1.1s steps(1,end) infinite}
+    </style>
+  </defs>
+
+  <rect width="1600" height="470" fill="url(#hbg)"/>
+  <rect width="1600" height="470" fill="url(#hdots)"/>
+  <g filter="url(#hsoft)">
+    <circle class="a" cx="220" cy="70" r="260" fill="url(#hglowP)"/>
+    <circle class="b" cx="1410" cy="410" r="290" fill="url(#hglowT)"/>
+  </g>
+
+  <rect x="120" y="96" width="1360" height="300" rx="18" fill="url(#hcard)" stroke="#ffffff" stroke-opacity="0.09"/>
+  <path d="M120 134 H1480" stroke="#ffffff" stroke-opacity="0.07"/>
+  <circle cx="158" cy="115" r="6.5" fill="#FF5F57"/>
+  <circle cx="182" cy="115" r="6.5" fill="#FEBC2E"/>
+  <circle cx="206" cy="115" r="6.5" fill="#28C840"/>
+  <text x="238" y="120" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Courier New',monospace" font-size="13" letter-spacing="1" fill="#68718B">l_dream @ backend — zsh — 160×48</text>
+  <text x="1440" y="300" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Courier New',monospace" font-size="150" font-weight="700" fill="#ffffff" fill-opacity="0.04">&lt;/&gt;</text>
+
+  <g font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Courier New',monospace">
+    <text x="166" y="192" font-size="17" letter-spacing="0.5" fill="#586079"><tspan fill="#2CB67D">➜</tspan>  <tspan fill="#7F5AF0">~</tspan>  <tspan fill="#C7CFE3">whoami</tspan></text>
+    <text x="166" y="256" font-size="48" font-weight="700" letter-spacing="1" fill="#FFFFFF" font-family="'Segoe UI','Inter','Noto Sans SC','PingFang SC','Microsoft YaHei',-apple-system,Arial,sans-serif">李翔 <tspan fill="#3E475E">/</tspan> L_dream</text>
+    <text x="166" y="316" font-size="17" letter-spacing="0.5" fill="#586079"><tspan fill="#2CB67D">➜</tspan>  <tspan fill="#7F5AF0">~</tspan>  <tspan fill="#C7CFE3">cat focus.txt</tspan></text>
+    <text x="166" y="360" font-size="21" font-weight="600" letter-spacing="0.5" fill="url(#haccent)" textLength="520" lengthAdjust="spacingAndGlyphs">high-concurrency · distributed · llm-agent</text>
+  </g>
+  <rect class="cur" x="700" y="342" width="11" height="22" rx="2" fill="#7F5AF0"/>
+
+  <path d="M120 448 H1480" stroke="#ffffff" stroke-opacity="0.04"/>
+</svg>
