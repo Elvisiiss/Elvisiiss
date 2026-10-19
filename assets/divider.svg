@@ -1,12 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 40" width="1600" height="40" role="img" aria-label="divider">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 60" width="1600" height="60" role="img" aria-label="divider">
   <defs>
     <linearGradient id="dl" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#7F5AF0" stop-opacity="0"/>
-      <stop offset="0.3" stop-color="#7F5AF0" stop-opacity="0.45"/>
-      <stop offset="0.7" stop-color="#2CB67D" stop-opacity="0.45"/>
+      <stop offset="0.22" stop-color="#7F5AF0" stop-opacity="0.9"/>
+      <stop offset="0.78" stop-color="#2CB67D" stop-opacity="0.9"/>
       <stop offset="1" stop-color="#2CB67D" stop-opacity="0"/>
     </linearGradient>
+    <radialGradient id="dotGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#7F5AF0" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#7F5AF0" stop-opacity="0"/>
+    </radialGradient>
   </defs>
-  <path d="M0 20 H1600" stroke="url(#dl)" stroke-width="2"/>
-  <circle cx="800" cy="20" r="4" fill="#7F5AF0" fill-opacity="0.9"/>
+  <path d="M0 30 H1600" stroke="url(#dl)" stroke-width="3"/>
+  <circle cx="800" cy="30" r="24" fill="url(#dotGlow)"/>
+  <circle cx="800" cy="30" r="5" fill="#7F5AF0"/>
+  <circle cx="800" cy="30" r="2" fill="#ffffff" fill-opacity="0.9"/>
 </svg>
